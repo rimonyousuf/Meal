@@ -1,0 +1,8 @@
+.banner{
+    background-image: url('./images/banner_1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#btn-search{
+    margin-bottom: 5px;
+}
