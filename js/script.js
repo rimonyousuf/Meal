@@ -32,8 +32,10 @@ const displayMeals = meals => {
 }
 
 const searchMeal = () => {
-    const textSearch = document.getElementById('btn-search').value;
+    const textSearchMeals = document.getElementById('search-field');
+    const textSearch = textSearchMeals.value;
     loadMeals(textSearch);
+    textSearchMeals.value = '';
 }
 
 const loadUserMeal = (idMeal) => {
